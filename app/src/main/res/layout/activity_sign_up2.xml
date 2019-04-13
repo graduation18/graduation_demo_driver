@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.sign_up2"
+    android:orientation="vertical"
+    android:paddingTop="40dp">
+    <android.support.v7.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_image_black_24dp"
+            android:layout_gravity="center"
+            android:id="@+id/driving_license"
+            />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="19dp"
+        android:text="Upload Driving License"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/castellar"
+        />
+    <android.support.v7.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_image_black_24dp"
+            android:layout_gravity="center"
+            android:id="@+id/car_lisence"/>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="19dp"
+        android:text="Upload Car License"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/castellar"
+        />
+    <android.support.v7.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_image_black_24dp"
+            android:layout_gravity="center"
+            android:id="@+id/car"/>
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="19dp"
+        android:text="Upload Car Image"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/castellar"
+        />
+    <android.support.v7.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_image_black_24dp"
+            android:layout_gravity="center"
+            android:id="@+id/national_id"
+            />
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="19dp"
+        android:text="Upload Driving License"
+        android:fontFamily="@font/castellar"
+        android:layout_marginBottom="20dp"
+        />
+    <!-- Signup Button -->
+    <Button
+        android:id="@+id/finish_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_cloud_upload_black_24dp"
+        android:text="Finish Sign Up"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:fontFamily="@font/gothamultra"
+        android:textSize="15dp"
+        android:drawablePadding="5dp"
+        android:padding="15dp"
+       />
+</LinearLayout>
+</ScrollView>

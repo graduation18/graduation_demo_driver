@@ -1,0 +1,124 @@
+{
+  "project_info": {
+    "project_number": "178928120581",
+    "firebase_url": "https://mashrou3ta5rog-30146.firebaseio.com",
+    "project_id": "mashrou3ta5rog-30146",
+    "storage_bucket": "mashrou3ta5rog-30146.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178928120581:android:5cb2c6e153784320",
+        "android_client_info": {
+          "package_name": "com.example.fatma.graduation_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178928120581-7h2gbmqovv9pr1rn6ooe7rhesqcpihnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr4XtcNA2_KEARkBVNHYEkP1zxPhsh8_A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178928120581:android:03903c0c736f109d",
+        "android_client_info": {
+          "package_name": "com.example.gaber.graduation_demo_driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178928120581-b6kbk1edqq149nh7qpld4dm2644h98k0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gaber.graduation_demo_driver",
+            "certificate_hash": "da436ca416327427ffa44478a91c2ae1ea5100cb"
+          }
+        },
+        {
+          "client_id": "178928120581-7h2gbmqovv9pr1rn6ooe7rhesqcpihnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr4XtcNA2_KEARkBVNHYEkP1zxPhsh8_A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178928120581-7h2gbmqovv9pr1rn6ooe7rhesqcpihnj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "178928120581-nblu86eji43c9d1d2lso6dl3s1ige3ob.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.maherelamary.grad-project"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178928120581:android:912ee97841d45df1",
+        "android_client_info": {
+          "package_name": "rgetheer.egetr.etr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178928120581-7h2gbmqovv9pr1rn6ooe7rhesqcpihnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr4XtcNA2_KEARkBVNHYEkP1zxPhsh8_A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

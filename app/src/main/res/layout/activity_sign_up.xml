@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal"
+            android:text="lift"
+            android:fontFamily="@font/alexbrush"
+            android:textSize="90dp"/>
+
+        <!--  Name Label -->
+        <android.support.v7.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/fab"
+            app:cardBackgroundColor="@color/camera_background_color"
+            android:layout_gravity="center"
+            >
+    <com.alexzh.circleimageview.CircleImageView
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:view_backgroundColor="@color/camera_background_color"
+        android:forceHasOverlappingRendering="true"
+        android:src="@drawable/ic_camera_alt_black_24dp"
+
+
+
+
+        />
+
+</android.support.v7.widget.CardView>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="Name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Age" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <io.ghyeok.stickyswitch.widget.StickySwitch
+            android:id="@+id/sticky_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            app:ss_animationDuration="600"
+            app:ss_iconPadding="18dp"
+            app:ss_iconSize="22dp"
+            app:ss_leftIcon="@drawable/ic_male"
+            app:ss_leftText="Male"
+            app:ss_rightIcon="@drawable/ic_female"
+            app:ss_rightText="Female"
+            app:ss_selectedTextSize="14sp"
+            app:ss_sliderBackgroundColor="@color/colorSliderBackground"
+            app:ss_switchColor="@color/colorSwitchColor"
+            app:ss_textColor="@color/colorTextColor"
+            app:ss_textSize="12sp"
+            app:ss_animationType="line"/>
+        <!-- Signup Button -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_navigate_next_black_24dp"
+            android:text="Next"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:fontFamily="@font/gothamultra"
+            android:textSize="15dp"
+            android:drawablePadding="5dp"/>
+
+    </LinearLayout>
+</ScrollView>

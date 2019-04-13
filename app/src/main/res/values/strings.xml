@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">graduation_demo_driver</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="tab1">Map</string>
+    <string name="tab2">Carpooling</string>
+    <string name="tab5">Settings</string>
+    <string name="gps_title">GPS is not working</string>
+    <string name="gps_network_not_enabled">Please Open Location Services From Settings</string>
+    <string name="open_location_settings">yes</string>
+    <string name="Cancel">Cancel</string>
+    <string name="seats">Are You Comfortable With That Number Of Seats</string>
+    <string name="Confirm_Leaving_from">Confirm Leaving From</string>
+    <string name="cost">you\'r free to put the price you see fit the trip for a seat</string>
+    <string name="reject_ride">Reject_ride</string>
+    <string name="accept_ride">Accept Ride</string>
+    <string name="trip">Trip</string>
+</resources>

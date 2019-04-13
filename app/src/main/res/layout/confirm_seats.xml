@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_home"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@drawable/toolbar_color"
+        style="@style/ToolBarStyle.Event"
+        >
+        <TextView
+            android:id="@+id/back"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/back"
+            android:clickable="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trip"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            >
+            <TextView
+                android:id="@+id/notifications"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/notifications"
+                android:layout_marginRight="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/number_of_notifications"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/circle3"
+                android:text="15"
+                android:textSize="6dp"
+                android:textAlignment="center"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seats"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_margin="15dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_margin="30dp">
+
+        <Button
+            android:id="@+id/seats_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/ic_remove_circle_outline_black_24dp" />
+
+        <TextView
+            android:id="@+id/seats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/gothamultra"
+            android:text="4"
+            android:textColor="#547FDF"
+            android:textSize="50dp"
+
+
+            />
+
+
+        <Button
+            android:id="@+id/seats_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:drawableRight="@drawable/ic_add_circle_outline_black_24dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/view_foreground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/white">
+
+        <Button
+            android:id="@+id/Confirm_Leaving_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/round_shape"
+            android:gravity="center"
+            android:text="@string/Confirm_Leaving_from"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</LinearLayout>
